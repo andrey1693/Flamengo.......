@@ -1,0 +1,104 @@
+.box1{
+    background-color: rgba(255, 255, 255, 0.527);
+    height: 450px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    display: inline;
+}
+
+.container{
+    display: grid;
+    justify-content: center;  /* Alinhamento horizontal */
+    align-items: center;
+
+}
+
+.fundoIMG1{
+    background-image: url(https://escolaflamengo.com.br/wp-content/uploads/2024/12/FLA-NOVO-1.png);
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    background-color: red;
+    display: block;
+    background-position-y: 70px;
+}
+
+.buttonCor{
+    background-color: black;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+.formato{
+    background-color: white;
+    border-radius: 5px;
+    width: 450px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.corFonte{
+    color: white;
+}
+
+.centroButton{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonAni:hover{
+    text-align: center;
+    transform: scale(1.1);
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: black;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    background-color: red;
+ 
+}
+
+.areaLogo{
+    display: flex;
+    align-items: center;
+}
+
+.imagemLogo {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://images.seeklogo.com/logo-png/33/2/novo-monograma-crf-2018-flamengo-logo-png_seeklogo-330996.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 15px;
+}
+
+
+.tituloSite {
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+.barra a {
+    color: black;
+    border: red;
+    margin-left: 60px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.section {
+    margin-top: 10px; /* altura do cabeçalho */
+}
