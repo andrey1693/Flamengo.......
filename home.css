@@ -22,6 +22,7 @@
     background-size: cover;
     background-color: red;
     display: block;
+    background-position-y: 90px;
     
 }
 
@@ -33,6 +34,7 @@
     color: black;
     width: 100%;
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    background-color: red;
  
 }
 
