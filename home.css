@@ -16,14 +16,14 @@
 }
 
 .fundoIMG1{
-    background-image: url(https://escolaflamengo.com.br/wp-content/uploads/2024/12/FLA-NOVO-1.png);
+    background-image: url(https://museuflamengo.com/wp-content/uploads/2024/01/escudos_flamengo_final.png);
+    background-repeat: no-repeat;
     max-width: 100%;
-    height: auto;
-    background-size: cover;
+    background-size: 1000px;
     background-color: red;
     display: block;
-    background-position-y: 90px;
-    
+    background-position: center;
+    background-position-y: 200px;
 }
 
 .cabeçalho{
@@ -87,7 +87,10 @@
     color: white;
 }
 
-.texto-embaixo{
-    position: absolute;
-    top: 2000px;
+.centroT{
+    display: flex;
+    justify-content: center;  /* Alinhamento horizontal */
+    align-items: center;
+    margin-top: 800px;
+
 }
